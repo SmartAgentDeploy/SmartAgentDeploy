@@ -6,6 +6,11 @@
 
 A decentralized AI Agents trading platform that combines blockchain technology with advanced AI to provide automated cryptocurrency trading solutions.
 
+<div align="center">
+  <a href="https://www.smartagentdeploy.com/">Official Website</a> |
+  <a href="https://x.com/smart_deploy">Twitter</a>
+</div>
+
 ## Overview
 
 SmartAgentDeploy is an innovative platform that enables users to create, train, and deploy AI trading agents on the blockchain. The platform offers:
