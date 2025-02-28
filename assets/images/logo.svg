@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background Hexagon with Gradient -->
+  <defs>
+    <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#6D28D9" />
+    </linearGradient>
+    
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C4B5FD" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+    
+    <linearGradient id="deployGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Refined Hexagon -->
+  <path d="M250,50 L425,150 L425,350 L250,450 L75,350 L75,150 Z" 
+        fill="url(#hexGradient)" />
+  
+  <!-- Enhanced AI Brain Circuit Icon -->
+  <g transform="translate(150, 120)">
+    <!-- Brain Outline with Smoother Curves -->
+    <path d="M100,0 
+             C145,0 180,30 190,70 
+             C215,75 225,95 225,115
+             C225,145 205,165 175,165
+             C170,185 155,195 140,200
+             C130,210 115,215 100,215
+             C85,215 70,210 60,200
+             C45,195 30,185 25,165
+             C-5,165 -25,145 -25,115
+             C-25,95 -15,75 10,70
+             C20,30 55,0 100,0Z" 
+          fill="url(#brainGradient)" stroke="#7C3AED" stroke-width="6" />
+    
+    <!-- Circuit Elements with Glow -->
+    <circle cx="60" cy="80" r="9" fill="#F9FAFB" filter="url(#glow)" />
+    <circle cx="140" cy="80" r="9" fill="#F9FAFB" filter="url(#glow)" />
+    <circle cx="100" cy="40" r="9" fill="#F9FAFB" filter="url(#glow)" />
+    <circle cx="100" cy="120" r="12" fill="#F9FAFB" filter="url(#glow)" />
+    <circle cx="100" cy="170" r="9" fill="#F9FAFB" filter="url(#glow)" />
+    
+    <!-- Connection Lines with Glow -->
+    <line x1="60" y1="80" x2="100" y2="40" stroke="#F9FAFB" stroke-width="4" />
+    <line x1="100" y1="40" x2="140" y2="80" stroke="#F9FAFB" stroke-width="4" />
+    <line x1="60" y1="80" x2="100" y2="120" stroke="#F9FAFB" stroke-width="4" />
+    <line x1="140" y1="80" x2="100" y2="120" stroke="#F9FAFB" stroke-width="4" />
+    <line x1="100" y1="120" x2="100" y2="170" stroke="#F9FAFB" stroke-width="4" />
+    
+    <!-- Pulse Effect on Main Node -->
+    <circle cx="100" cy="120" r="18" fill="none" stroke="#F9FAFB" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="18;25;18" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Improved Deployment Triangle -->
+  <path d="M250,260 L330,380 L170,380 Z" fill="url(#deployGradient)" />
+  
+  <!-- Subtle Hexagon Inner Border -->
+  <path d="M250,65 L415,160 L415,340 L250,435 L85,340 L85,160 Z" 
+        fill="none" stroke="#C4B5FD" stroke-width="2" stroke-opacity="0.3" />
+        
+  <!-- Small Circuit Nodes in Background for Depth -->
+  <circle cx="150" cy="200" r="3" fill="#F9FAFB" opacity="0.3" />
+  <circle cx="350" cy="200" r="3" fill="#F9FAFB" opacity="0.3" />
+  <circle cx="200" cy="120" r="3" fill="#F9FAFB" opacity="0.3" />
+  <circle cx="300" cy="120" r="3" fill="#F9FAFB" opacity="0.3" />
+  <circle cx="200" cy="350" r="3" fill="#F9FAFB" opacity="0.3" />
+  <circle cx="300" cy="350" r="3" fill="#F9FAFB" opacity="0.3" />
+</svg> 

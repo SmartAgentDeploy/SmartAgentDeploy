@@ -1,5 +1,9 @@
 # SmartAgentDeploy
 
+<div align="center">
+  <img src="assets/images/logo.svg" alt="SmartAgentDeploy Logo" width="200" height="200">
+</div>
+
 A decentralized AI Agents trading platform that combines blockchain technology with advanced AI to provide automated cryptocurrency trading solutions.
 
 ## Overview
