@@ -1,0 +1,17 @@
+{
+  "name": "smartagentdeploy-frontend",
+  "version": "0.1.0",
+  "description": "Frontend for SmartAgentDeploy platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+} 
